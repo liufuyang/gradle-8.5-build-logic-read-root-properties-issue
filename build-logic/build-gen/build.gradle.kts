@@ -1,4 +1,3 @@
-tasks.register("exampleTask") {
-    val myPropValue = rootProject.findProperty("my.path") ?: "not found"
-    println("Property value of my.path: $myPropValue")
+plugins {
+    `kotlin-dsl` // A gradle core plugin to write plugins in Kotlin DSL
 }
